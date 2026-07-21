@@ -68,12 +68,8 @@ export default function SiteShell() {
     <div className="min-h-screen bg-[#FFFDF8] text-[#1F2937]">
       <header id="home" className="sticky top-0 z-50 border-b border-slate-200/80 bg-[#FFFDF8]/90 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-          <Link href="#home" className="flex items-center gap-3">
-            <Image src="/images/logo.svg" alt="Bharat Disposal logo" width={44} height={44} className="rounded-2xl shadow-sm" />
-            <div>
-              <p className="text-lg font-semibold">Bharat Disposal</p>
-              <p className="text-sm text-slate-500">Wholesale & Retail</p>
-            </div>
+          <Link href="#home" className="flex items-center gap-2">
+            <Image src="/images/logo.svg" alt="Bharat Disposal logo" width={60} height={50} className="shadow-sm" />
           </Link>
 
           <nav className="hidden items-center gap-6 text-sm font-medium lg:flex">
@@ -334,11 +330,7 @@ export default function SiteShell() {
         <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1.2fr_0.8fr_1fr]">
           <div>
             <div className="flex items-center gap-3">
-              <Image src="/images/logo.svg" alt="Bharat Disposal logo" width={44} height={44} className="rounded-2xl shadow-sm" />
-              <div>
-                <p className="font-semibold text-[#1F2937]">Bharat Disposal</p>
-                <p className="text-sm text-slate-500">Complete Disposable Solutions</p>
-              </div>
+              <Image src="/images/logo.svg" alt="Bharat Disposal owner photo" width={60} height={45} className="shadow-sm rounded-full object-cover" />
             </div>
             <p className="mt-4 max-w-md text-sm leading-7 text-slate-600">A premium supplier for disposable cups, plates, containers, packaging, and household essentials in Jaunpur.</p>
           </div>
